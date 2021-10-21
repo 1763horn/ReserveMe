@@ -40,7 +40,7 @@
     font-family: "hello";
     font-weight: bold;
     font-size: 40px;
-    color: #000000;
+    color: #24ff24;
     justify-content: center;
 
 }
@@ -133,7 +133,7 @@ body {
     display: flex;
     width: 530px;
     height: 80px;
-    background: white;
+    background: green;
     border-radius: 3px;
 }
 
