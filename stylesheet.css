@@ -23,7 +23,7 @@
 
 
 .contact-us {
-/ / background-color: blue;
+  background-color: blue;
     display: flex;
     justify-content: center;
 }
