@@ -27,6 +27,9 @@ WildRydes.map = WildRydes.map || {};
         });
     }
 
+    function completeRequest(result) {
+        console.log('Response received from API: ', result);
+    }
 
     // Register click handler for #request button
     $(function onDocReady() {
