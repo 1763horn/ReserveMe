@@ -30,7 +30,7 @@
     */
    
    ::-moz-selection {
-       background: #b3d4fc;
+       background: black;
        text-shadow: none;
    }
    
