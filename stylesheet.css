@@ -1,0 +1,286 @@
+*{
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "hello";
+    src: url("../fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: "regular";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "semibold";
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "italic";
+    src: url("../fonts/OpenSans-Italic.ttf");
+}
+
+
+.contact-us {
+  background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main {
+    padding-top: 25px;
+}
+
+
+.contact-us__title {
+    display: flex;
+    justify-items: flex-start;
+    font-family: "hello";
+    font-weight: bold;
+    font-size: 40px;
+    color: #24ff24;
+    justify-content: center;
+
+}
+
+.contact-us__text {
+    display: flex;
+    font-family: "sans-serif";
+    font-size: 16px;
+    color: #494848;
+
+}
+
+.contact-us__btn {
+    background-color: #24ff24;
+    width: 220px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Gill Sans MT Ext Condensed Bold";
+    font-size: 18px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.contact-us__btn:hover {
+    color: red;
+    background-color: transparent;
+    border: 1px solid red;
+    transition: 0.3s;
+    transform: scale(1.05);
+}
+
+.contact-us__item {
+    height: 400px;
+    display: flex;
+}
+
+.contact-us__item_left {
+    width: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 5%;
+}
+
+.contact-us__item_right {
+    width: 50%;
+    display: flex;
+    padding-top: 25px;
+    padding-right: 5%;
+}
+
+.contact-us__container {
+    display: flex;
+    background-color: #FFDEAD;
+    max-width: 1280px;
+    width: 100%;
+
+}
+
+.contact-us__image {
+    display: flex;
+    border-radius: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.takeout-tips__form {
+    padding-top: 25px;
+    padding-right: 5%;
+    height: 500px;
+    display: flex;
+    width: 800px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 10%;
+}
+
+.takeout-tips__input{
+    display: flex;
+    width: 530px;
+    height: 80px;
+    background: green;
+    border-radius: 3px;
+}
+
+.takeout-tips__input_subscribe {
+    width: 220px;
+    height: 80px;
+    background: red;
+    display: flex;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.takeout-tips {
+    display: flex;
+    justify-content: center;
+    background: #FFDEAD;
+    max-width: 1280px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.takeout-tips__container {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+
+.takeout-tips__input_subscribe-text {
+    display: flex;
+    margin: auto;
+    color: white;
+    font-family: "italic";
+    font-size: 18px;
+}
+
+.takeout-tips__input_email {
+    display: flex;
+    color: white;
+    font-family: "italic";
+    font-size: 18px;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+
+
+.email-address{
+    border: none;
+}
+
+
+.takeout-tips__title {
+    font-family: "semibold";
+    font-size: 42px;
+    color: black;
+    padding-top: 10%;
+}
+
+.takeout-tips__text {
+    font-family: "regular";
+    font-size: 16px;
+    color: white;
+    padding-top: 5%;
+    text-align: -webkit-center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.banner{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("banner-img.jpg") center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: 420px 420px;
+}
+.card-img{
+    background: url("card-img.jpg") center/cover no-repeat;
+}
+.banner h2{
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+}
+.card-content{
+    background: #fff;
+    height: 330px;
+}
+.card-content h3{
+    text-align: center;
+    color: #000;
+    padding: 25px 0 10px 0;
+    font-size: 26px;
+    font-weight: 500;
+}
+.form-row{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+form select, form input{
+    display: block;
+    width: 100%;
+    margin: 15px 12px;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #eee;
+    font-weight: 300;
+}
+form input[type = text], form input[type = number], form input::placeholder, select{
+    color: #9a9a9a;
+}
+form input[type = submit]{
+    color: #fff;
+    background: #f2745f;
+    padding: 12px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+form input[type = submit]:hover{
+    opacity: 0.9;
+}
+@media(max-width: 992px){
+    .card-container{
+        grid-template-columns: 100%;
+        width: 100vw;
+    }
+    .card-img{
+        height: 330px;
+    }
+}
